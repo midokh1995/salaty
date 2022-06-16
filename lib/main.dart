@@ -92,7 +92,6 @@ void main() {
                           right: 20,
                           child: Icon(Icons.calendar_today_outlined,color: Colors.white,
                           ),)
-
                       ],
                     ),
                   )
