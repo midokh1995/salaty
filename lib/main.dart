@@ -63,9 +63,44 @@ void main() {
                   ),
                 )
             ),
+            SizedBox(
+              height: 48.9,
+            ),
+            Column(
+              children: [
+                Container(
+                  width: 400,
+                  height: 60,
+                  color: Colors.teal[900],
+                  child: Padding(
+                    padding: EdgeInsets.all(15),
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          left:20,
+                          child: Icon(Icons.check_box_outlined,color: Colors.white,
+                          ),),
+                        Positioned(
+                          left:120,
+                          child: Icon(Icons.alarm,color: Colors.white,),
+                        ),
+                        Positioned(
+                          right: 120,
+                          child: Icon(Icons.pause,color: Colors.white,),
+                        ),
+                        Positioned(
+                          right: 20,
+                          child: Icon(Icons.calendar_today_outlined,color: Colors.white,
+                          ),)
+
+                      ],
+                    ),
+                  )
+                )
+              ],
+            )
           ],
         ),
-
       ),
     ),
   ));
